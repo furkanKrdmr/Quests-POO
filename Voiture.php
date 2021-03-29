@@ -7,7 +7,7 @@ class Voiture
     private string $color;
     private int $nbSeats;
     private string $energy;
-    private int $energyLevel;
+    private int $energyLevel = 10;
 
 
     public function __construct(int $nbWheels, string $color, string $energy, int $nbSeats)
